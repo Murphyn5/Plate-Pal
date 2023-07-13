@@ -1,0 +1,128 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px); /* Adjust this value according to the height of your nav bar */
+  gap: 32px;
+  padding-top: 30px; /* Adjust this value according to the height of your nav bar */
+}
+
+.errors {
+  color: red;
+}
+
+/* Business card */
+.business-card {
+  background-color: #ffffff;
+  width: 207px;
+  padding-bottom: 18px;
+  padding-top: 22px;
+  min-height: 169px;
+  border-radius: 0%;
+}
+
+.business-form {
+  background-color: #fff;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* grid-template-columns: 1fr; */
+  place-items: center;
+  line-height: 1.5;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.185);
+  padding: 24px 31px 17px 27px;
+  margin-bottom: 20px;
+}
+
+.business-form h2 {
+  font-size: 1.2rem;
+  color: #1A2250;
+}
+
+.business-form p {
+  font-size: 14px;
+  color: #3B4169;
+  margin: 10px 0;
+}
+
+.business-form input[type="text"],
+.business-form input[type="email"],
+.business-form input[type="number"],
+
+.business-form select,
+.business-form button {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  border-radius: 3px;
+}
+
+
+
+.business-form input[type="text"],
+.business-form input[type="email"],
+.business-form input[type="number"],
+.day-hours input[type="time"],
+.business-form select {
+  border-radius: 3px;
+  border: 2px solid #DADDEC;
+  margin: 5px 0 10px;
+  font-size: 1rem;
+  color: #656880;
+}
+
+/* .autocomplete-container {
+  width: 100% !important;
+  margin: auto;
+  position: relative;
+  right: 15px;
+} */
+
+.business-form select {
+  width: 631px;
+}
+
+.business-form button {
+  background-image: linear-gradient(to right, #cf2222, #a50606);
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 20px #89caff94;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.business-form button:hover {
+  box-shadow: none;
+}
+
+.business-form span {
+  display: block;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  color: #BABDCB;
+  font-size: 12px;
+}
+
+.business-form .price-radios label {
+  display: inline-block;
+
+}
+
+.image-preview {
+  border-radius: 5px;
+}
+
+.price-radios {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.business-form-price-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

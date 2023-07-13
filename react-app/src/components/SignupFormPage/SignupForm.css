@@ -1,0 +1,38 @@
+.sign-up-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-page-container > input {
+  width: 235px;
+  height: 25px;
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+
+.sign-up-page-names > input {
+  width: 110.5px;
+  height: 25px;
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+
+.signup-form-button {
+  width: 250px;
+  height: 35px;
+  background-color: rgba(224, 7, 7, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-platepal-log-in {
+    color: #0073bb;
+    text-decoration: none;
+  }
+
+  .signup-form-errors {
+    color: red;
+}

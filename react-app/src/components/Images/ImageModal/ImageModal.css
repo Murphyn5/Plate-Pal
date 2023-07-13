@@ -1,0 +1,195 @@
+.image-modal-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.image-modal-container-wrapper {
+    position: fixed;
+    min-height: 40vw;
+    top: 60px;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+    max-width: 1300px;
+    min-width: 960px;
+    position: absolute;
+    background-color:white;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.image-modal-information-container {
+    width: 350px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    padding: 24px 24px 24px;
+}
+
+.image-modal-information-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.image-modal-information-title {
+    width: 200px;
+}
+
+.image-modal-close-button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url("close.png");
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+}
+
+.image-modal-close-button-outer-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.image-modal-close-button-outer-circle:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.image-modal-image-wrapper {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.image-modal-image-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    background-size: cover;
+    position: relative;
+}
+
+.image-modal-image-container-arrow-left {
+    background-color: rgba(255, 255, 255, 0.801);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 5%;
+    border-radius: 50%;
+    background-image: url("left-arrow.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image-modal-image-container-arrow-right {
+    background-color: rgba(255, 255, 255, 0.801);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 5%;
+    border-radius: 50%;
+    background-image: url("right-arrow.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.image-modal-image-container-arrow-placeholder {
+    background-color: rgba(0, 0, 0, 0);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+.image-modal-singleImage {
+    width: 100%;
+    max-height: 100%;
+
+}
+
+.image-modal-image-container h2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 28px;
+    color: rgb(45, 46, 47);
+}
+
+.image-modal-information-related-images-container {
+    height: 40%;
+}
+
+
+
+.image-modal-information-related-image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+
+}
+
+.image-modal-information-related-image {
+    cursor: pointer;
+}
+
+.image-modal-information-related-images-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.image-modal-information-related-images-grid img {
+    height: 70px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.image-modal-information-related-image-inactive {
+    filter: opacity(30%);
+
+}
+
+.image-modal-information-related-image-active {
+    filter: brightness(100%);
+    border: solid 1px black;
+}
+
+.image-modal-delete-button {
+    text-decoration: underline;
+    color: rgba(2, 122, 151, 1);
+    cursor: pointer;
+    width: auto;
+}
+
+.image-modal-delete-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-modal-delete-button-container img {
+    height: 20px;
+    position: relative;
+    right: 4px;
+    filter: brightness(80%);
+}

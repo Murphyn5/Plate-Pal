@@ -1,0 +1,29 @@
+.search-container {
+  width: 100%;
+}
+
+.search-container-form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.search-container-input {
+  width: 300px;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+  border-color: gray;
+  padding-left: 5px;
+}
+
+.magnifying-css {
+  color: white;
+  background-color: rgba(224,7,7,1);
+  border: 1px solid gray;
+  height: 34px;
+  width: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}

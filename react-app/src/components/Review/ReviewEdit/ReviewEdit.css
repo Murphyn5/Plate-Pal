@@ -1,0 +1,39 @@
+.edit-review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-review-textarea {
+  width: 390px;
+  height: 200px;
+  padding: 5px;
+}
+
+.update-review-post-button {
+    width: 200px;
+    height: 35px;
+    background-color: rgba(224, 7, 7, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .review-form-stars-container {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .review-star{
+    position: relative;
+    bottom: 2px;
+  }
+
+  .off > span > .fa-square {
+    background: linear-gradient(to right, #BBBAC0 50%, #BBBAC0 50%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+  }

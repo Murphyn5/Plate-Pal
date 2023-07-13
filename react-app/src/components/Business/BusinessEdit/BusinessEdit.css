@@ -1,0 +1,39 @@
+.edit-business-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-business-container > * {
+  width: 480px;
+  padding: 3px;
+  margin: 3px 0px;
+}
+
+.edit-business-container > select {
+  width: 490px
+}
+
+.edit-business-price-radios > label {
+  margin-right: 10px;
+}
+
+.edit-business-submit-button {
+  width: 150px;
+  height: 35px;
+  background-color: rgba(224, 7, 7, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.day-hours {
+  margin: auto;
+}
+
+.day-hours-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

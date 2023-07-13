@@ -1,0 +1,68 @@
+.activities-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.banner-image {
+  max-height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.root-activities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-container {
+  position: relative;
+  height: 682px; /* Adjust the height to your preference */
+  overflow: hidden;
+}
+
+.carousel-root {
+  height: 682px;
+}
+
+.carousel-container img {
+  width: 1000px;
+  height: 682px;
+  object-fit: cover;
+}
+
+.search-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.pagination-buttons {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  margin: 0 0.25rem 1rem 0.25rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.pagination-buttons:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pagination-buttons:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

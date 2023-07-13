@@ -1,0 +1,71 @@
+.review-form-stars-container > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
+
+.star-rating {
+  font-size: 20px;
+}
+
+.create-review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-review-textarea {
+  width: 390px;
+  height: 200px;
+  padding: 5px;
+}
+
+.create-review-image-url {
+  width: 387px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.create-review-textarea-caption {
+  width: 390px;
+  height: 70px;
+  padding: 5px;
+}
+
+.create-review-post-button {
+  width: 200px;
+  height: 35px;
+  background-color: rgba(224, 7, 7, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-form-stars-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.review-star{
+  position: relative;
+  bottom: 2px;
+}
+
+.off > span > .fa-square {
+  background: linear-gradient(to right, #BBBAC0 50%, #BBBAC0 50%) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}

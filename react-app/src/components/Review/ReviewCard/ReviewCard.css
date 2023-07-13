@@ -1,0 +1,152 @@
+.review-card {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.review-card h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.review-card p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.review-card-owner-container{
+    display: flex;
+    align-items: center;
+}
+
+.review-card-owner-container i{
+    font-size: 40px;
+}
+
+.review-card-owner-information{
+    position: relative;
+    left: 10px;
+}
+
+.review-card-images-container img{
+    height: 200px;
+}
+
+.review-card-owner-image-count{
+    display: flex;
+    align-items: center;
+}
+
+.review-card-owner-image-count img{
+    height: 18px;
+}
+
+.review-card-rating-and-date-container{
+    display: flex;
+    align-items: center;
+}
+
+.review-card-date{
+    position: relative;
+    left: 10px;
+    color: rgba(110,112,114,1);
+}
+
+.review-card-images-link-container{
+    display: flex;
+    align-items: center;
+}
+
+.review-card-images-link-container img{
+    height: 18px;
+}
+
+.review-card-images-link-text{
+    position: relative;
+    left: 10px;
+}
+
+.review-card-images-container div{
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.review-card-images-container {
+    display: grid;
+    gap: 10px;
+}
+
+.review-card-manage-buttons-container{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.review-card-delete-button {
+    text-decoration: underline;
+    color: rgba(2, 122, 151, 1);
+    cursor: pointer;
+    width: auto;
+}
+
+.review-card-delete-button-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.review-card-edit-button {
+    text-decoration: underline;
+    color: rgba(2, 122, 151, 1);
+    cursor: pointer;
+    width: auto;
+}
+
+.review-card-edit-button-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.review-card-edit-button-container i {
+    font-size: 18px;
+    color: rgba(2, 122, 151, 1);
+}
+
+.review-card-delete-button-container i {
+    font-size: 18px;
+    color: rgba(2, 122, 151, 1);
+}
+
+.review-card-add-photo-button{
+    width: 80px;
+    padding: 5px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #666;
+    background: #fff;
+    border: 1px solid #ccc;
+    transition: all 0.6s;
+    transition-property: background-color, color, background-position, background-size, border-color, color;
+}
+
+.review-card-add-photo-button:hover{
+    cursor: pointer;
+    color: rgba(2, 122, 151, 1);
+    border: 1px solid rgba(2, 122, 151, 1);
+}
+
+.review-card-photos-buttons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+}

@@ -1,0 +1,65 @@
+.business-search-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 200px;
+}
+
+.business-search-img>img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.business-search-text,
+.business-search-text-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.business-search-card-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.business-search-text-review {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.business-search-card-review-container {
+  overflow: hidden;
+  height: 110px;
+}
+
+.business-search-card-review {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  /* start showing ellipsis when 3rd line is reached */
+  white-space: pre-wrap;
+  /* let the text wrap preserving spaces */
+}
+
+#map-div {
+  position: fixed !important;
+  color: black!important;
+  top: 80px !important;
+  left: 610px !important;
+  padding: 10px;
+  /* width: calc((100% - 652px) * .5); */
+  width: 450px;
+  z-index: 3!important;
+  background-color: white!important;
+  padding: "10px"!important;
+  border-radius: "5px"!important;
+  box-shadow: "0 0 5px rgba(0, 0, 0, 0.3)"!important;
+  cursor: "pointer"!important;
+}
+
+.highlight {
+  border: 2px solid lightblue;
+  position: relative;
+  right: 2px;
+  background-color: rgba(173, 236, 252, 0.274);
+}

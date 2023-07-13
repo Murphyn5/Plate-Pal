@@ -1,0 +1,54 @@
+.review-delete-form-container{
+    width: 80%;
+    margin: auto;
+}
+
+.review-delete-form-review {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.review-delete-form-button-container{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+
+.review-delete-form-title{
+    color: #d32323
+}
+
+.review-delete-form-delete-button{
+    cursor: pointer;
+    color: #666;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 8px;
+    background-image: none;
+    background-repeat: no-repeat;
+    transition: all 0.6s;
+    transition-property: background-color, background-position, background-size, border-color, color;
+}
+
+.review-delete-form-delete-button:hover{
+    cursor: pointer;
+    color: #fff;
+    background: #d32323;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.review-delete-form-cancel-button{
+    cursor: pointer;
+    align-self: center;
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgba(2,122,151,1);
+}
+
+.review-delete-review-card > div{
+    margin: 0;
+}

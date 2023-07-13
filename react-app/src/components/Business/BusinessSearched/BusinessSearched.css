@@ -1,0 +1,86 @@
+.business-search-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 612px;
+  box-sizing: border-box;
+  padding: 20px;
+  height: calc(100vw - 110px);
+  overflow-y: hidden;
+  background-color: white;
+}
+
+.business-search-filters {
+  display: flex;
+  width: 170px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.business-search-results {
+  width: 100%;
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* .business-search-map-container {
+  width: 30%;
+  width: 300px;
+} */
+
+.business-search-clear-filter {
+  font-size: 14px;
+  color: rgba(2, 122, 151, 1);
+  cursor: pointer;
+}
+
+/* Price filter styling */
+.business-search-price-filter > button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
+
+.price-rating {
+  font-size: 16px;
+}
+
+.search-businesses-filter-button {
+  width: 120px;
+  height: 35px;
+  background-color: rgba(224, 7, 7, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.business-search-card-container {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.business-search-card-container:hover {
+  box-shadow: 1px 1px 5px gray;
+}
+
+.business-search-name {
+  cursor: pointer;
+}
+
+.business-search-img > img {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.search-filter-checkboxes {
+  cursor: pointer;
+}

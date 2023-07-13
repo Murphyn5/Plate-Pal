@@ -1,0 +1,92 @@
+.fa-star {
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-stack {
+    width: 30px;
+}
+
+.fa-circle {
+    color: black;
+}
+
+.fa-stack {
+    vertical-align: top;
+}
+
+
+
+.yellow {
+    background: linear-gradient(to right, rgba(255, 204, 75, 1), rgba(255, 204, 75, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.yellow-gray {
+    background: linear-gradient(to right, rgba(255, 204, 75, 1) 50%, #BBBAC0 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gold {
+    background: linear-gradient(to right, rgba(255, 173, 72, 1), rgba(255, 173, 72, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gold-gray {
+    background: linear-gradient(to right, rgba(255, 173, 72, 1) 50%, #BBBAC0 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.orange {
+    background: linear-gradient(to right, rgba(255, 135, 66, 1), rgba(255, 135, 66, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.orange-gray {
+    background: linear-gradient(to right, rgba(255, 135, 66, 1) 50%, rgb(187, 187, 187) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.amber {
+    background: linear-gradient(to right, rgba(255, 100, 61, 1), rgba(255, 100, 61, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.amber-gray {
+    background: linear-gradient(to right, rgba(255, 100, 61, 1)50%, rgb(187, 187, 187) 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.red {
+    background: linear-gradient(to right, rgba(251, 67, 60, 1), rgba(251, 67, 60, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gray {
+    background: linear-gradient(to right, #BBBAC0 50%, #BBBAC0 50%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}

@@ -1,0 +1,151 @@
+/* ----------------  */
+/* PROFILEBUTTON.JS  */
+/* ----------------  */
+
+/* border and cushion for options that pop up */
+.profile-dropdown {
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+  right: 20px;
+  margin-top: 5px;
+  background-color: white;
+}
+
+.profile-dropdown > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* hide menu when not clicked on */
+.hidden {
+  display: none;
+}
+
+/* styling menu buttons, rounded with spacing */
+.menu-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user-drop-down-name {
+  margin-bottom: 10px;
+}
+
+.manage-user-items {
+  color: #0073bb;
+  text-decoration: none;
+}
+
+.user-drop-down-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-logout {
+  background-color: #d32323;
+  color: white;
+  font-size: 14px;
+  height: 32.5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-signup-css {
+  display: flex;
+  flex-direction: row;
+}
+
+.login-button,
+.signup-button {
+  width: 80px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button {
+  margin-right: 15px;
+  background-color: white;
+  border-color: gray;
+}
+
+.signup-button {
+  background-color: rgba(224, 7, 7, 1);
+  color: white;
+  margin-right: 20px;
+}
+
+/* -------- */
+/* INDEX.JS */
+/* -------- */
+
+/* keep navbar outer parent fixed for scrolling */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  /* border-bottom: 2px solid grey; */
+  background-color: white;
+  z-index: 1;
+  border-bottom: solid 1px rgba(128, 128, 128, 0.171);
+}
+
+/* ul parent containing the logo & menu button */
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+/* remove bulletpoint from ul (& its li children) */
+ul {
+  list-style-type: none;
+}
+
+/* position two items on  */
+.nav-right-loggedin-user {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right-add-business {
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-right-add-business:hover {
+  color: white;
+  background-color: lightslategray;
+  border-radius: 5px;
+  height: 20px;
+  padding: 3px 0px;
+}
+
+/* resize logo to be slightly smaller than full parent size */
+.logo-image {
+  height: 40px;
+  padding-left: 20px;
+}
+
+.nav-right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
