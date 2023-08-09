@@ -1,6 +1,6 @@
 # About Plate-Pal
 
-Plate Pal is a web application inspired by Yelp. It allows users to search for businesses, view business pages, leave reviews and ratings. [Click here to visit Plate Pal's live site](https://plate-pal.onrender.com/).
+Plate Pal is a web application inspired by Yelp. It allows users to search for businesses, view business pages, leave reviews and ratings. [Click here to visit Plate Pal's live site](https://plate-pal-acn4.onrender.com/).
 
 <br>
 
