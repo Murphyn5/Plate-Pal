@@ -150,11 +150,6 @@ Zak Beg
   - <input type="checkbox" checked> [Portfolio](https://zakariya.io/)
   - <input type="checkbox" checked> [LinkedIn](https://www.linkedin.com/in/zakariya-beg-74919a201/)
 
-- <input type="checkbox" checked> [GitHub](https://github.com/zakariya23)
-- <input type="checkbox" checked> [Email](mailto:commanderzee455@gmail.com)
-- <input type="checkbox" checked> [Portfolio]()
-- <input type="checkbox" checked> [LinkedIn](https://www.linkedin.com/in/zakariya-beg-74919a201/)
-
 Hamilton Truong
 
 - <input type="checkbox" checked> [GitHub](https://github.com/truham)
