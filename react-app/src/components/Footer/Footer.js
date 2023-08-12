@@ -39,7 +39,7 @@ const Footer = () => {
             <a className="social-icon" target="_blank" href="https://github.com/zakariya23/">
               <i className="fab fa-github"></i>
             </a>
-            <a className="social-icon" target="_blank" href="YOUR-PORTFOLIO-LINK-HERE">
+            <a className="social-icon" target="_blank" href="https://zakariya.io/">
               <i className="fas fa-user-circle"></i>
             </a>
             <a className="social-icon" target="_blank" href="mailto:commanderzee455@gmail.com">
