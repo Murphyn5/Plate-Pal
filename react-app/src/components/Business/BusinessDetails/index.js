@@ -318,7 +318,7 @@ const BusinessDetail = () => {
             <Link
               to={`/businesses/search/${business.address}/20/${business.lat}/${business.lng}`}
             >
-              <button>See On Map</button>
+              <button>See on map</button>
             </Link>
           </div>
 
