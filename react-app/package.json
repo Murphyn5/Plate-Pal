@@ -48,7 +48,12 @@
   },
   "proxy": "http://localhost:5000",
   "devDependencies": {
-    "react-error-overlay": "^6.0.9",
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "babel-loader": "^8.2.3",
+    "react-error-overlay": "^6.0.9"
+  },
+  "resolutions": {
+    "@babel/core": "^7.16.0"
   }
 }
